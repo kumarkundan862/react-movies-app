@@ -18,6 +18,6 @@
     from { transform: scaleX(-1); }
  }
 
- .MuiFormControl-root{
-     width:100%
+ .tabs{
+     margin-bottom:20px
  }
