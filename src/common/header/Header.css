@@ -17,3 +17,7 @@
  @keyframes app-logo-spin {
     from { transform: scaleX(-1); }
  }
+
+ .MuiFormControl-root{
+     width:100%
+ }
