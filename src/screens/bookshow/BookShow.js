@@ -42,7 +42,7 @@ class BookShow extends Component {
     }
 
     backToDetailsHandler = () => {
-        ReactDOM.render(<Home />, document.getElementById('root'));
+        ReactDOM.render(<Details movieId={this.props.movieId} />, document.getElementById('root'));
     }
 
     locationChangeHandler = event => {
